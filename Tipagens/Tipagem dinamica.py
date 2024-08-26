@@ -1,7 +1,7 @@
 import os
 
 os.system("cls || clear") #Limpa o console
-
+# escreva (git add .) no terminal e (git commit -m "nome do salvamento") para passar as alterações para o Github
 # Barra reta dupla = OU (||)
 
 # "==" significa igualdade entre 2 coisas, já "!=" representa a difereça entre 2 coisas
