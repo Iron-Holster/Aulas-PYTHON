@@ -1,7 +1,10 @@
 import os
 
-os.system("cls || clear") #Limpa o console 
+os.system("cls || clear") #Limpa o console
+
 # Barra reta dupla = OU (||)
+
+.upper() #transforma qualquer letra digitada pelo usuario em maiuscula
 
 #Na tipagem dinamica não é ditada os tipos das variaveis, como Real ou Cadeia
 nome = "Mario"
