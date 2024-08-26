@@ -4,6 +4,8 @@ os.system("cls || clear") #Limpa o console
 
 # Barra reta dupla = OU (||)
 
+# "==" significa igualdade entre 2 coisas, já "!=" representa a difereça entre 2 coisas
+
 .upper() #transforma qualquer letra digitada pelo usuario em maiuscula
 
 #Na tipagem dinamica não é ditada os tipos das variaveis, como Real ou Cadeia
