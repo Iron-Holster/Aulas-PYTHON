@@ -6,7 +6,9 @@ os.system("cls || clear") #Limpa o console
 
 # "==" significa igualdade entre 2 coisas, já "!=" representa a difereça entre 2 coisas
 
-.upper() #transforma qualquer letra digitada pelo usuario em maiuscula
+.upper() #transforma qualquer letra digitada pelo usuario em MAIUSCULA
+.lower() #transforma qualquer letra digitada pelo usuario em MINUSCULA
+.strip() # Apaga os "Espaços" do texto digitado pelo usuario
 
 #Na tipagem dinamica não é ditada os tipos das variaveis, como Real ou Cadeia
 nome = "Mario"
