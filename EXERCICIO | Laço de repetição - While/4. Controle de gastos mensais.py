@@ -14,6 +14,7 @@ while True:
 
     resto = limite - gasto
 
+   
     print(f"Ainda restam: {resto}")
 
     if gasto> limite:
