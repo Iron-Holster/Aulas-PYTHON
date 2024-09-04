@@ -16,12 +16,13 @@ while True:
     
     codigo_usu = input("Insira o cupom para receber o desconto: ")
     contador+=1
-    if codigo_usu!=cupom:
+
+    if contador>2:
+        print("Limite de tentativas excedido!")
+        break
+    elif codigo_usu!=cupom:
         print("\nNÚMERO INVALIDO")
         print("Tente novamente")
-        if contador>2:
-            print("Limite de tentativas excedido!")
-            break
     else:
         print("Parabens! Você recebeu 25% de desconto")
         break
