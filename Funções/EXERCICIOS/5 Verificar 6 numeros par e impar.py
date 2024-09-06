@@ -4,22 +4,21 @@ Crie uma função que receba um numero e mostre uma mensagem informando se o num
 
 import os
 os.system("cls || clear")
-impares=0
-pares=0
 
-def verificar (n1):
-    if (n1%2)!= 0:
-        impares+=1
-        print(f"quantidade de impares: {n1}")
-    else:
-        pares+=1
-        print(f"quantidade de pares: {n1}")
-        
 
-print("=== Descubra se o número é impar ou par ===")
-numero1 = int(input("Insira um número: "))
-numero2 = int(input("Insira um número: "))
-numero3 = int(input("Insira um número: "))
-numero4 = int(input("Insira um número: "))
-numero5 = int(input("Insira um número: "))
-numero6 = int(input("Insira um número: "))
+def verificar ():
+    impares=0
+    pares=0
+
+    for i in range(1,7):
+        numero =int(input("Digite um numero: "))
+
+        if numero%2 == 0:
+            pares+=1    
+        else:
+            impares+=1
+
+    print(f"Quantidade de pares: {pares}")
+    print(f"Quantidade de impares: {impares}")
+
+verificar()
