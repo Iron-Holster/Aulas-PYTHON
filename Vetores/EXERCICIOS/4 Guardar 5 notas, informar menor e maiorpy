@@ -1,0 +1,27 @@
+"""
+Crie um programa que leia 3 notas, armazenando em um vetor e mostre as notas informadas
+"""
+
+import os
+os.system("cls || clear")
+
+maior = 0
+menor = 0
+QUANTIDADE_NOTAS = 5
+lista_notas=[]
+
+print("\n=== Solicitando dados ===")
+for i in range(QUANTIDADE_NOTAS):
+    nota = float(input("Digite sua nota: "))
+    lista_notas.append(nota)
+
+#max pega o maior número dentro do vetor, enquanto min procura pelo menor
+maior_numero = max(lista_notas)
+menor_numero = min(lista_notas)
+
+print("\n=== Exibindo resultados ===")
+for contador, nota in enumerate(lista_notas): #enumerate apresenta os números dentro da lista numerados pela ordem
+    print(f"{contador+1} nota: {nota}")
+
+print(f"Maior nota: {maior_numero}")
+print(f"Menor nota: {menor_numero}")
